@@ -1,0 +1,46 @@
+# Build artifacts
+bin/
+dist/
+*.exe
+
+# Go
+*.test
+*.out
+coverage.html
+coverage.txt
+
+# Plans (internal, not for the repo)
+plans/
+
+# AI tool configs (personal/local — not for the repo)
+.claude/
+.cursorrules
+.codex
+.windsurfrules
+.aider.conf.yml
+.aider.chat.history.md
+.aider.input.history
+.continue/
+.copilot/
+Claude.md
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# goreleaser
+.goreleaser-dist/
+
+
